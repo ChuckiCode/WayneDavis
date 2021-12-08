@@ -1,0 +1,150 @@
+@media (max-width: 360px) {
+  body{
+    width: 100%;
+    height: fit-content;
+  }
+  p{
+    font-size: smaller;
+  }
+  li{
+  list-style: none;
+  display: inline-block;
+  padding:10px;
+}
+    .introBox {
+      width:100%;
+      display: grid;
+      text-align: center;
+      height: 110vh;
+      background-position: right;
+    }
+    h1{
+      font-size: 1.5em;
+      margin: 5px;
+    }
+    .followBox .followIcons{
+      width: 26px;
+    }
+    #mainImage{
+        width: 100%;
+    }
+    #aboutMe{
+        width: 360px;
+        text-align: center;
+    }
+    #aboutMe p{
+      margin: 10px;
+      font-size: 14px;
+  }
+    #statusBox{
+      height: 60vh;
+      background-color: rgb(116, 116, 116);
+      width: 100%;
+      overflow: hidden;
+      margin: none;
+    }
+    #statusBox img{
+      width: 150px;
+    }
+    #statsTable{
+      height: 300px;
+      line-height: 26px;
+    }
+    #statsTable th{
+      height: fit-content;
+      text-align: start;
+      font-size: 0.5rem;
+    }
+    #statsTable td{
+      height: fit-content;
+      text-align: start;
+      font-size: 0.5rem;
+  }
+  .mainslideWraper{
+    height: 230vh;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+  }
+  .slideWrapper{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  .faqWrapper{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    height:220vh;
+  }
+  #bClubImage{
+    width: 100%;
+  }
+  .news{
+    width: 100%;
+    height: 180vh;
+  }
+  .news h2{
+    margin: 5px;
+  }
+  .containerCards{
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    display: grid;
+  }
+  .newsContainer{
+    width: 300px;
+    height: 300px;
+  }
+  .newsContainer svg{
+    width: 50px;
+    height: 50px;
+  }
+  .newsContainer button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    margin: 10px;
+  }
+  .contactContainer{
+    height: 90vh;
+    text-align: center;
+  }
+  #feedbackBox{
+    width: 100%;
+    height: 140px;
+    margin: auto;
+  }
+  #feedbackBox h2{
+    margin: 10px;
+  }
+  
+  #msgForm{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+  }
+  #msgForm h2{
+    margin: 10px;
+  }
+  #msgForm label{
+    font-size: 1rem;
+    margin: 5px 0 0 5px;
+  }
+  #msgForm input{
+    font-size: 1rem;
+    margin: 5px 0 0 5px;
+  }
+  #warnigBox{
+  width: 100%;
+  height: fit-content;
+  border: 1px solid red;
+  text-align: center;
+  margin-top: 10px;
+  display: none;
+  }
+}
