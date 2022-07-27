@@ -1,265 +1,304 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body{
-    background-color: white;
-    height: fit-content;
-    width: 100%;
-}
-p{
-  font-family: 'Karma', serif;
-}
-
-header{
   width: 100%;
-    height: 40px;
-    background-color: rgb(75, 75, 75);
+  height: fit-content;
 }
-nav{
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
-a{
-  text-decoration: none;
-  color: black;
-}
-li{
-  list-style: none;
-  display: inline-block;
-  padding: 10px 10px 10px 10px;
-}
-li:hover{
-  transition-duration: 500ms;
-  list-style: none;
-  display: inline-block;
-  padding: 10px 10px 10px 10px;
-  background-color: rgb(41, 41, 41);
-}
-.buttonA:hover{
-  transition-duration: 500ms;
-  background-color: rgb(41, 41, 41);
-}
-.containers{
-    height: 100vh;
-    background-color: rgb(51, 51, 51);
 
-}
+/*/////////////////////////////////// main page ///////////////////////////////// */
+
+
 .introBox{
   width: 100%;
-  background-image: url('https://i.pinimg.com/originals/35/4e/40/354e401564a5346b2b68f3c949c112d7.jpg');
+  height: fit-content;
+  background-image: url(/media/images/UntitledwayneD.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#aboutMe{
-    text-align: center;
-    width: 50%;
-    height: 50vh;
-    background-color: rgba(0, 0, 0, 0.604);
-    border-radius: 10px;
-    color: white;
-}
-#aboutMe:hover{
-  transition-duration: 500ms;
-  background-color: rgba(0, 0, 0, 0.904);
-}
-h1{
-  font-size: 2.5em;
-  margin: 10px;
-  color: rgb(102, 0, 0);
-  font-family: 'IM Fell English SC', serif;
-}
-.followBox img{
+/* .iconRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #04AA6D;
+} */
+.followIcon{
   width: 30px;
-  margin: 10px;
-  border-radius: 20px;
+  height: 30px;
 }
-button{
-  width: 100px;
-  height: 40px;
-  border: none;
-  border-radius: 6px;
-  background-color: rgb(46, 46, 46);
-  color: white;
-}
-/*status box*/
-#statusBox{
-  scroll-snap-type: proximity;
-  height: 80vh;
-  background-color: rgb(112, 112, 112);
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-#statsTable{
-  height: 400px;
-  border-radius: 8px;
-  padding: 10px;
-  box-shadow:  0 0 10px black;
-  line-height: 35px;
-}
-#statusBox img{
-width: 80px;
-}
-#statsTable th{
-  height: auto;
-  text-align: start;
-  padding: 0 20px 8px 0;
-  font-size: 1.2rem;
-  color: rgb(112, 0, 0);
-}
-#statsTable td{
-  height: auto;
-  text-align: start;
-  padding: 0 10px 8px 0;
-  font-size: 1.2rem;
-}
-.mainslideWraper{
-  height: 200vh;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
 
-.faqWrapper{
-  background-image: url('https://www.lielens.be/wp-content/uploads/2018/10/1400x1400_INTER_ANNIV_DROITE_1.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 500px;
-  height:180vh;
-    text-align: center;
-    margin: 10px;
-    background-color: rgba(48, 48, 48, 0.432);
-}
-.faqWrapper h3{
-  color: maroon;
-  margin: 5px;
-}
-.faqWrapper h2{
-  margin: 10px;
-  color: maroon;
-}
-.clubBox{
-    height: 80vh;
-    text-align: center;
-}
-.boxClub h2{
-  margin: 10px;
-}
-.boxClub{
-  height: 80vh;
+#slide_article{
+  width: 400px;
+  height: 360px;
+  background-color: aliceblue;
   text-align: center;
+  border-radius: 4.5px;
 }
-.boxClub p{
-  margin: 20px;
+
+h1{
+  font-size: 28px;
+  margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
-.boxClub button{
-  width: 100px;
+#slide_article p{
+  margin: 10px 10px;
+  font-size: 20px;
+}
+
+#slide_article button{
+  width: 120px;
   height: 40px;
-  border: none;
-  border-radius: 6px;
-  background-color: rgb(71, 71, 71);
-  color: white;
-}
-.news{
-  height: 80vh;
+  background-color: rgb(156, 13, 13);
   text-align: center;
+  border-radius: 4.5px;
+  border: none;
 }
-.news h2{
-  margin: 10px;
+
+.mainslideWraper{
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  border: 1px solid black;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.news{
+  width: 100%;
+  height: 100vh;
+  background-color: darkgreen;
 }
 .containerCards{
   width: 100%;
-  height: 50vh;
+  height: 100%;
+  background-color: darkkhaki;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-around;
 }
-.newsContainer:hover{
-  transition-duration: 500ms;
-  background-color: rgba(41, 41, 41, 0.493);
-}
+
 .newsContainer{
   width: 300px;
-  height: 300px;
+  height: 360px;
+  background-color: aliceblue;
+  text-align: center;
 }
+
 .newsContainer svg{
   width: 50px;
   height: 50px;
 }
-.newsContainer button{
-  width: 100px;
-  height: 40px;
-  border: none;
-  border-radius: 6px;
-  background-color: rgb(71, 71, 71);
-  color: white;
-  margin: 10px;
+
+
+
+
+
+
+
+/*////////////////////////////////// about page //////////////////////////////// */
+
+#aboutWrapper{
+  width: 100%;
+  height: 60vh;
+  background-color: #04AA6D;
 }
-.contactContainer{
+
+#statusBox{
+  width: 100%;
+  height: 60vh;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#statsTable{
+  /* border: 1px solid black; */
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#statsTable table{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 100%;
+  text-align: start;
+  }
+
+.faqWrapper{
+    width: 90%;
+    height: 100vh;
+    background-color: brown;
+    margin: auto;
+  }
+
+.clubBox{
+  width: 100%;
   height: 80vh;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxClub{
+  width: 360px;
+  height: fit-content;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////// contact page  */
+
+#contactWrapper{
+  width: 100%;
+  height: 60vh;
+  background-color: blue;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+ /*///////////////////////// footer section ///////////////////////////// */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
   text-align: center;
 }
-#feedbackBox{
-  width: 100%;
-  height: 140px;
-  margin-bottom: 20px;
-}
-#feedbackBox h2{
-  margin: 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
-#msgForm{
-  width: 400px;
-  height: 400px;
-  margin: auto;
-}
-#msgForm h2{
-  margin: 10px;
-}
-#msgForm label{
-  font-size: 1rem;
-  margin: 5px 0 0 5px;
-}
-#msgForm input{
-  font-size: 1rem;
-  margin: 5px 0 0 5px;
-}
 
-address a svg{
-  width: 30px;
-}
-footer{
-  background-color: rgb(117, 117, 117);
-  height: 10vh;
-  display: flex;
-  justify-content: space-evenly;
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  header-right {
+    float: none;
+  }
 }

@@ -6,94 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/ms.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Wayne Davis</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">DOWNLOAD</a></li>
-                <li><a href="#">ABOUT ME</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="introBox">
-        <img src="media/images/16603110_100696360454815_5848135888340787354_n.jpg" alt="" width="400px" id="mainImage">
-        <article id="aboutMe">
-            <h1>Wayne Davis</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quo quasi commodi iure expedita, voluptas repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quibusdam ipsa ex, corporis at, quam, iste voluptatem mollitia dicta molestias voluptates. Nisi accusantium a maxime corporis animi voluptates corrupti et!</p>
-            <br>
-             <hr style="width: 65%; margin: auto;">
-            <div class="followBox">
-                <img src="media/icons/OIP (1).jfif" alt="" class="followIcons">
-                <img src="media/icons/OIP (2).jfif" alt="" class="followIcons">
-                <img src="media/icons/OIP (3).jfif" alt="" class="followIcons">
-            </div>
-            <button class="buttonA">CONTACT</button>           
-        </article>
-    </section>
 
-    <section id="statusBox">
-        <img src='media/images/239415261_382309460189321_1072814765278179944_n.jpg' alt="" width="400px" id="statusImage">
-        <div id="statsTable" data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom">
-            <table>
-                <tr>
-                    <th>NAME:</th>
-                    <td>WAYNE DAVIS
-                    </td>
-                </tr>
-                <tr>
-                    <th>BIRTHDAY:</th>
-                    <td>SEPTEMBER 19, 1990
-                    </td>
-                </tr>
-                <tr>
-                    <th>BIRTHPLACE:</th>
-                    <td>JOHANNESBURG S.A
-                    </td>
-                </tr>
-                <tr>
-                    <th>DIVISION:</th>
-                    <td>MIDDLEWEIGHT
-                    </td>
-                </tr>
-                <tr>
-                    <th>STANCE:</th>
-                    <td>ORTHODOX
-                    </td>
-                </tr>
-                <tr>
-                    <th>HEIGHT:</th>
-                    <td>172cm
-                    </td>
-                </tr>
-                <tr>
-                    <th>WEIGHT:</th>
-                    <td>76kg
-                    </td>
-                </tr>
-                <tr>
-                    <th>REACH:</th>
-                    <td>180cm
-                    </td>
-                </tr>
-            </table>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Wayne Davis</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">HOME</a></li>
+                  <li><a class="dropdown-item" href="#">ABOUT ME</a></li>
+                  <li><a class="dropdown-item" href="#">CONTACT ME</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+  
+    <section class="introBox">
+       <div class="container bg-dark">
+            <div class="row">
+                <div class="col-xs-12 text-center text-light">
+                    <h1>Wayne Davis</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center text-light">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis blanditiis modi commodi facilis totam minima, qui minus laboriosam ratione reiciendis labore in, eligendi laborum iste! Sint voluptatem dicta voluptatum placeat?</p>
+                </div>
+            </div>
+            <div class="row iconRow">
+                <div class="col-xs-1 col-sm-3 col-md-3 col-lg-3 p-1">
+                    <svg class="followIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+                </div>
+                <div class="col-xs-1 col-sm-3 col-md-3 col-lg-3 p-1">
+                    <svg class="followIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
+                </div>
+                <div class="col-xs-1 col-sm-3 col-md-3 col-lg-3 p-1">
+                    <svg class="followIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg>
+                </div>
+                <div class="col-xs-1 col-sm-3 col-md-3 col-lg-3 p-1">
+                    <svg class="followIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center m-2 p-3">
+                    <button style="padding:5px 10px; border: none; background-color:rgb(84, 84, 84);">CONTACT</button>
+                </div>
+            </div>
         </div>
     </section>
-    
+
+
     <section class="mainslideWraper">
+
+        
     <div class="slideWrapper">
         <div class="mySlides fade">
-            <img src="media/images/215332887_1126557654535342_4578748450247653146_n.jpg" width="600px" height="500px" >
+            <img src="media/images/215332887_1126557654535342_4578748450247653146_n.jpg" width="100%" height="500px" >
           </div>
         
           <div class="mySlides fade">
@@ -104,70 +89,11 @@
             <img src="media/images/211706960_1126557804535327_4683915972168002254_n.jpg" width="600px" height="500px" >
           </div>
     </div>
-    <article class="faqWrapper">
-            <h2>FAQ</h2>
-            <h3>How did you get in to the sport ?</h3>
-            <p>My love for contact sport and the desire to become a champion. I joined MMA
-                hoping to find my place among fighters and to learn, however it didn't fill my
-                cup and started looking for other opportunities that fits my fighting style. With
-                my family's motivation and support I've finally found my flighting foundation.</p>
-                <br>
-            <h3>What is your favourite strike to use in a fight ?</h3>
-                <p>My favourite strike is the jab. It's deceiving and allows me to simultaneously
-                    use offence and defence measures and create openings to the head and
-                    body.</p>
-                    <br>
-                    <h3>Who is your biggest inspiration
-                        ?
-                        </h3>
-                        <p>Mike Tyson is definitely my inspiration because of how determined he was to
-                            be the best and the type of fighter he is.
-                            He is an roll model to a lot of young boxers and he inspired me to become a
-                            boxer.</p>
-                            <br>
-                            <h3>What team are you training with?</h3>
-                            <p>The best club in the southern part of Johannesburg, South-hills Boxing Club
-                                and with the best team that motivates each other, trained by our coach Lyle.
-                                It's the best place to be and my second home.
-                                What does it mean for you to be a boxer?
-                                It means everything to me, there is nothing i'd rather be than a professional
-                                boxer. It's like reading my Bible, it gives me motivation and stength and a clear
-                                mind.
-                                I never walk out of a training session regretting what I've leaned.</p>
-                                <br>
-                                <h3>What seperates you from other boxers in your division?</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quia labore ab.
-                                    Sapiente veritatis beatae delectus quo omnis a voluptates. Fuga possimus
-                                    sequi ex suscipit doloribus consequatur, corporis, accusamus accusantium.</p>
-                                    <br>
-                                    <h3>If you could have a dream fight, who would it be?</h3>
-                                    <p>Kenelo Aver. He is a formidable fighter and has good techniques and is a well
-                                        known boxer. I want to fight him to truly test my skills.</p>
-                                        <br>
-                                        <h3>What would you like to be remembered for at the end of your career?</h3>
-                                        <p>To be known as the boxer who went from nothing to something in the shortest
-                                            period of time. I want to make history that will last for centuries and hopefully
-                                            become a inspiration to others and teaching self defence.</p>
-    </div>
 </section>
 
-     
-    <section class="clubBox">
-        <article class="boxClub">
-            <h2>Boxing club</h2>
-            <img src="media/images/229851282_1143505886173852_1236676934317503275_n.jpg" alt="" id="bClubImage">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, dolorum aliquid! Minus minima laborum delectus, nobis recusandae quisquam debitis fugiat, incidunt laboriosam est rerum porro, dolorum alias facere. Esse, perspiciatis.</p>
-            <aside>
-                <button class="buttonA">MORE</button>
-            </aside>
-        </article>
-    </section>
     <section class="news">
         <h2>MY Boxing Activities</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore impedit porro animi, voluptates debitis unde, totam pariatur tempore laudantium est hic fuga nulla accusantium provident voluptate laborum voluptas laboriosam quidem.</p>
-        <br>
-        <hr style="width: 70%; margin: auto; background-color: red;">
-        <br>
         <div class="containerCards" data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom">
             <div class="newsContainer">
@@ -196,63 +122,21 @@
             </div>
         </div>
     </section>
-    <section class="contactContainer">
-        <article id="feedbackBox">
-            <h2>Your feedback is inportant</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia nesciunt error minima earum assumenda rem officiis facilis nulla deserunt! At, sunt omnis! Cupiditate neque saepe aspernatur modi, accusamus labore.</p>
-        </article>
-        <form action="#" id="msgForm">
-            <h2>Send me a message</h2>
-            <label for="userName">Name</label>
-            <br>
-            <input type="text" name="userName" id="userName">
-            <br>
-            <label for="userMail">Email</label>
-            <br>
-            <input type="email" name="userMail" id="userMail">
-            <br>
-            <label for="userMsg">Message</label>
-            <br>
-            <textarea name="userMsg" id="userMsg" cols="25" rows="6" placeholder="type your mesage here.. "></textarea>
-            <br>
-            <br>
-            <button type="submit" id="submitBtn">Submit</button>
-            <article id="warnigBox">
-                <h3>This form doesnt work</h3>
-                <p>Appoligies, this form doesnt work at the moment as it is in development, it will be working soon </p>
-            </article>
-        </form>
-    </section>
+
+
+
+<!--///////////////////// footer section/////////////////////////////////////  -->
     <footer>
         <address>
-        
         </address>
-        © 2021 wayne Davis | South Africa
+        © 2022 wayne Davis | South Africa
         <br>
         <div class="footerBoxed">
             <a href="http://github/Chuckicode" target="_blank" rel="noopener noreferrer">powered by ChuckiCODE</a> 
         </div>
     </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-    </script>
-    <script>
-        var slideIndex = 0;
-showSlides();
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3000);
-}
-    </script>
-    <script>
-        AOS.init();
-      </script>
-      <script src="/js/app.js"></script>
+    <script src="js/app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
